@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background:linear-gradient( palegreen, white);
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px 30px ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.box p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+    margin: 3px 0px;
+}
+.box input {
+    width: 90%;
+    border-radius: 7px;
+    border: 1px solid grey;
+    margin: 5px 5px;
+    padding: 10px 13px;
+}
+.box button{
+    font-size: 20px;
+    background-color: rgb(8, 255, 8);
+    border: 1px solid white;
+    padding: 10px 10px;
+    color: white;
+    border-radius: 7px;
+    margin: 7px 4px;
+    cursor: pointer;
+    width: 57%;
+}
+.imgbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box button:hover{
+
+background-color: rgb(136, 72, 195);
+}
